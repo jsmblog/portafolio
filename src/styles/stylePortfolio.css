@@ -1,0 +1,128 @@
+.portfolio {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    letter-spacing: .2rem;
+    gap: 1rem;
+    background-color: var(--green-dark);
+    padding: 1.5rem 0;
+    color: var(--green-Light);
+    text-transform: uppercase;
+}
+.contPortfolio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--green-dark);
+    border-top: 1px solid var(--gray-light);
+    padding: .7rem 0;
+}
+.mockupPortfolio {
+    width: 400px;
+}
+.contMockup {
+    border-radius: 10px;
+    width: 28%;
+    background-color: var(--gray-light);
+    box-shadow: 0 4px 20px 5px var(--green-cyan) ;
+    border-bottom: 3px solid var(--green-cyan);
+}
+.infoProjects {
+    border-left: 5px solid var(--green-Light);
+    padding: 1rem;
+}
+.infoProjects h2 {
+    color: var(--green-Light);
+    text-transform: uppercase;
+}
+.infoProjects p {
+    color: var(--whitesmoke);
+}
+.btnLink {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.btnLink button {
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    border: 1px solid var(--green-dark);
+    padding: .3rem 2rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px 1px var(--green-cyan);
+    cursor: pointer;
+}
+.btnLink button:hover {
+    background-color: var(--green-Light);
+    color: var(--whitesmoke);
+    box-shadow: 3px 3px 8px 1px var(--whitesmoke);
+}
+.contMockupOrder {
+order: 2;
+}
+/*animations*/
+.pulsate-fwd {
+	-webkit-animation: pulsate-fwd 1.8s ease-in-out infinite both;
+	        animation: pulsate-fwd 1.8s ease-in-out infinite both;
+}
+@-webkit-keyframes pulsate-fwd {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes pulsate-fwd {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+.blink-2 {
+	-webkit-animation: blink-2 10s infinite ;
+	        animation: blink-2 10s infinite ;
+}
+@-webkit-keyframes blink-2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes blink-2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  

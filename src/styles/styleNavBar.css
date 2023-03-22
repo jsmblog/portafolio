@@ -1,0 +1,39 @@
+.navBar {
+    background-color: var(--green-Light);
+    box-shadow: 0 5px 10px 1px var(--green-cyan);
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+}
+.imgLogo {
+    width: 80px;
+
+}
+.contentNavBar {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem ;
+    align-items: center;
+    align-content: center;
+}
+.nameMe {
+    color: var(--blue-dark);
+    display: flex;
+    align-items: center;
+    width: 12%;
+    gap: 1rem;
+}
+.LinksNavBar {
+    text-transform: uppercase;
+    color: var(--green-dark);
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    letter-spacing: .1rem;
+}
+.LinksNavBar li:hover {
+  border-bottom: 1px solid var(--green-cyan);
+  cursor: pointer;
+  color: var(--whitesmoke);
+}
