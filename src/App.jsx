@@ -32,6 +32,8 @@ import whatsapp from './assets/photos/whatsapp.png'
 import llamada from './assets/photos/llamada.png'
 import ContactMe from './components/ContactMe'
 import logoContactMe from './assets/photos/contactMe.png'
+import menuHamburguer from './assets/photos/hamburguesa.png'
+
 
 
 function App() {
@@ -39,7 +41,7 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar logoJoel={logoJoel} />
+      <NavBar logoJoel={logoJoel} menuHamburguer={menuHamburguer} />
       <AboutMe photoProfile={photoProfile} location={location} email={email} />
       <Skills frontEnd={frontEnd} backend={backend} mobile={mobile} html={html} css={css} logoReact={logoReact} bootstrap={bootstrap} Js={Js} github={github} nodeJs={nodeJs} slack={slack} notion={notion} />
       <Portfolio logoPortfolio={logoPortfolio} mockupOne={mockupOne} linkToSite={linkToSite} mockupTwo={mockupTwo} mockupThird={mockupThird} mockupFourth={mockupFourth} mockupFiveth={mockupFiveth} mockupSixth={mockupSixth} />

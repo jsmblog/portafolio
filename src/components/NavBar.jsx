@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const NavBar = ({logoJoel}) => {
+const NavBar = ({logoJoel,menuHamburguer }) => {
+
+    const [isOn, setIsOn] = useState(false)  
+    const handleOn = () => {
+    setIsOn(!isOn)
+    }
+
+    const isOnMenu = (isOn) ? "menuList positionFixed slide-in-elliptic-bottom-fwd": ""
   return (
+    <>
     <div>
         <nav className='navBar'>
             <div className='contentNavBar'>
@@ -20,9 +28,18 @@ const NavBar = ({logoJoel}) => {
                         <li>Portfolio</li>
                     </ul>
                 </div>
+                <div>
+                    <img onClick={handleOn} className='menuHamburguer' width={50} src={menuHamburguer} alt="" />
+                </div>
             </div>
         </nav>
     </div>
+    <div className={`${isOnMenu}`}>
+        <div><a href="#"><span>About myself </span></a></div>
+        <div><a href="#"><span>Skills</span></a></div>
+        <div><a href="#"><span>Portfolio</span></a></div>
+    </div>
+    </>
   )
 }
 

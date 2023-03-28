@@ -1,0 +1,657 @@
+/*1280px ft 800px*/
+@media screen and (min-width: 1280px){
+  
+}
+/*1080px ft 2400px*/
+@media screen and (min-width: 1080px) and (max-width:2400px) {
+    .navBar {
+        padding: 2rem 0;
+        z-index: 2;
+    }
+    .LinksNavBar {
+        display: none;
+    }
+    .nameMe h2 {
+        display: none;
+    }
+    .contentAboutMyself h2 {
+        color: var( --green-Light);
+        font-size: .8rem;
+    }
+    .contentAboutMyself h1 {
+        font-size: 1rem;
+    }
+    .contentAboutMyself p {  
+        font-size: .8rem;
+        padding: 1rem 0 2rem 0;
+    }
+    .contentAboutMyself {
+        padding: 1rem;
+        width: 75%;
+    }
+    .contPhoto img {
+        width: 10rem;
+    }
+    .contPhoto {
+        width: 4.4rem;
+        position: relative;
+        top: -1rem;
+        left: 2rem;
+    }
+    .images {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .images h3 {
+        font-size: 1rem;
+    }
+    .images img{
+        width: 1rem;
+        height: 1rem;
+    }
+    .quote h2 {
+        padding-left: 1rem;
+        font-size: .9rem;
+    }
+    .containerSkills h2 {
+        border-left: 2px solid var(--blue-dark) ;
+        padding:1rem;
+        font-size: .9rem;
+    }
+    .containerSkills p {
+        font-size: .85rem;
+    }
+    .imgSkills h4 {
+        font-size: .7rem;
+    }
+    .boxSkills img {
+        width: 1.2rem;
+    }
+    .boxSkills h3 {
+        font-size: .7rem;
+    }
+    .boxSkills {
+        padding: .5rem 0;
+        width: 25%;
+    }
+    .contMockup img {
+        width: 6rem;
+        height: 10rem;
+    }
+    .contMockup {
+        width:30%;
+    }
+    .infoProjects h2 , p {
+        font-size: .8rem;
+    }
+    .infoProjects {
+        width: 12rem;
+    }
+    .menuHamburguer {
+        display: block;
+        width: 5rem;
+        
+    }
+    .menuList {
+        background-color: white;
+        z-index:1;
+        height: 100%;
+        position: absolute;
+        top: 6rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        text-transform: uppercase;
+        color: var(--blue-dark);
+        transition: 1s ease-in-out;
+        }
+        .positionFixed {
+            position: fixed;
+        }    
+}
+/*414px ft 986px*/
+@media screen and (min-width: 414px) and (max-width:986px) {
+    .navBar {
+        z-index: 2;
+    }
+    .LinksNavBar {
+        display: none;
+    }
+    .nameMe h2 {
+        display: none;
+    }
+    .contentAboutMyself h2 {
+        color: var( --green-Light);
+        font-size: .8rem;
+    }
+    .contentAboutMyself h1 {
+        font-size: 1rem;
+    }
+    .contentAboutMyself p {  
+        font-size: .8rem;
+        padding: 1rem 0 2rem 0;
+    }
+    .contentAboutMyself {
+        padding: 1rem;
+        width: 75%;
+    }
+    .contPhoto img {
+        width: 10rem;
+    }
+    .contPhoto {
+        width: 4.4rem;
+        position: relative;
+        top: -1rem;
+        left: 2rem;
+    }
+    .images {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .images h3 {
+        font-size: 1rem;
+    }
+    .images img{
+        width: 1rem;
+        height: 1rem;
+    }
+    .quote h2 {
+        padding-left: 1rem;
+        font-size: .9rem;
+    }
+    .containerSkills h2 {
+        border-left: 2px solid var(--blue-dark) ;
+        padding:1rem;
+        font-size: .9rem;
+    }
+    .containerSkills p {
+        font-size: .85rem;
+    }
+    .imgSkills h4 {
+        font-size: .7rem;
+    }
+    .boxSkills img {
+        width: 1.2rem;
+    }
+    .boxSkills h3 {
+        font-size: .7rem;
+    }
+    .boxSkills {
+        padding: .5rem 0;
+        width: 25%;
+    }
+    .contMockup img {
+        width: 6rem;
+        height: 10rem;
+    }
+    .contMockup {
+        width:30%;
+    }
+    .infoProjects h2 , p {
+        font-size: .8rem;
+    }
+    .infoProjects {
+        width: 12rem;
+    }
+    .menuHamburguer {
+        display: block;
+    }
+    .menuList {
+        background-color: white;
+        z-index:1;
+        height: 100%;
+        position: absolute;
+        top: 6rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        text-transform: uppercase;
+        color: var(--blue-dark);
+        transition: 1s ease-in-out;
+        }
+        .positionFixed {
+            position: fixed;
+        }    
+}
+/*414px ft 736px*/
+@media screen and (min-width: 414px) and (max-width:736px) {
+    .navBar {
+        z-index: 2;
+    }
+    .LinksNavBar {
+        display: none;
+    }
+    .nameMe h2 {
+        display: none;
+    }
+    .contentAboutMyself h2 {
+        color: var( --green-Light);
+        font-size: .8rem;
+    }
+    .contentAboutMyself h1 {
+        font-size: 1rem;
+    }
+    .contentAboutMyself p {  
+        font-size: .8rem;
+        padding: 1rem 0 2rem 0;
+    }
+    .contentAboutMyself {
+        padding: 1rem;
+        width: 75%;
+    }
+    .contPhoto img {
+        width: 10rem;
+    }
+    .contPhoto {
+        width: 4.4rem;
+        position: relative;
+        top: -1rem;
+        left: 2rem;
+    }
+    .images {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .images h3 {
+        font-size: 1rem;
+    }
+    .images img{
+        width: 1rem;
+        height: 1rem;
+    }
+    .quote h2 {
+        padding-left: 1rem;
+        font-size: .9rem;
+    }
+    .containerSkills h2 {
+        border-left: 2px solid var(--blue-dark) ;
+        padding:1rem;
+        font-size: .9rem;
+    }
+    .containerSkills p {
+        font-size: .85rem;
+    }
+    .imgSkills h4 {
+        font-size: .7rem;
+    }
+    .boxSkills img {
+        width: 1.2rem;
+    }
+    .boxSkills h3 {
+        font-size: .7rem;
+    }
+    .boxSkills {
+        padding: .5rem 0;
+        width: 25%;
+    }
+    .contMockup img {
+        width: 6rem;
+        height: 10rem;
+    }
+    .contMockup {
+        width:30%;
+    }
+    .infoProjects h2 , p {
+        font-size: .8rem;
+    }
+    .infoProjects {
+        width: 12rem;
+    }
+    .menuHamburguer {
+        display: block;
+    }
+    .menuList {
+        background-color: white;
+        z-index:1;
+        height: 100%;
+        position: absolute;
+        top: 6rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        text-transform: uppercase;
+        color: var(--blue-dark);
+        transition: 1s ease-in-out;
+        }
+        .positionFixed {
+            position: fixed;
+        }    
+}
+/*375px ft 812px*/
+@media screen and (min-width: 375px) and (max-width:812px) {
+    .navBar {
+        z-index: 2;
+    }
+    .LinksNavBar {
+        display: none;
+    }
+    .nameMe h2 {
+        display: none;
+    }
+    .contentAboutMyself h2 {
+        color: var( --green-Light);
+        font-size: .8rem;
+    }
+    .contentAboutMyself h1 {
+        font-size: 1rem;
+    }
+    .contentAboutMyself p {  
+        font-size: .8rem;
+        padding: 1rem 0 2rem 0;
+    }
+    .contentAboutMyself {
+        padding: 1rem;
+        width: 75%;
+    }
+    .contPhoto img {
+        width: 10rem;
+    }
+    .contPhoto {
+        width: 4.4rem;
+        position: relative;
+        top: -1rem;
+        left: 2rem;
+    }
+    .images {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .images h3 {
+        font-size: 1rem;
+    }
+    .images img{
+        width: 1rem;
+        height: 1rem;
+    }
+    .quote h2 {
+        padding-left: 1rem;
+        font-size: .9rem;
+    }
+    .containerSkills h2 {
+        border-left: 2px solid var(--blue-dark) ;
+        padding:1rem;
+        font-size: .9rem;
+    }
+    .containerSkills p {
+        font-size: .85rem;
+    }
+    .imgSkills h4 {
+        font-size: .7rem;
+    }
+    .boxSkills img {
+        width: 1.2rem;
+    }
+    .boxSkills h3 {
+        font-size: .7rem;
+    }
+    .boxSkills {
+        padding: .5rem 0;
+        width: 25%;
+    }
+    .contMockup img {
+        width: 6rem;
+        height: 10rem;
+    }
+    .contMockup {
+        width:30%;
+    }
+    .infoProjects h2 , p {
+        font-size: .8rem;
+    }
+    .infoProjects {
+        width: 12rem;
+    }
+    .menuHamburguer {
+        display: block;
+    }
+    .menuList {
+        background-color: white;
+        z-index:1;
+        height: 100%;
+        position: absolute;
+        top: 6rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        text-transform: uppercase;
+        color: var(--blue-dark);
+        transition: 1s ease-in-out;
+        }
+        .positionFixed {
+            position: fixed;
+        }    
+}
+/*360px ft 640px*/
+@media screen and (min-width: 375px) and (max-width:667px) {
+    .navBar {
+        z-index: 2;
+    }
+    .LinksNavBar {
+        display: none;
+    }
+    .nameMe h2 {
+        display: none;
+    }
+    .contentAboutMyself h2 {
+        color: var( --green-Light);
+        font-size: .8rem;
+    }
+    .contentAboutMyself h1 {
+        font-size: 1rem;
+    }
+    .contentAboutMyself p {  
+        font-size: .8rem;
+        padding: 1rem 0 2rem 0;
+    }
+    .contentAboutMyself {
+        padding: 1rem;
+        width: 75%;
+    }
+    .contPhoto img {
+        width: 10rem;
+    }
+    .contPhoto {
+        width: 4.4rem;
+        position: relative;
+        top: -1rem;
+        left: 2rem;
+    }
+    .images {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .images h3 {
+        font-size: 1rem;
+    }
+    .images img{
+        width: 1rem;
+        height: 1rem;
+    }
+    .quote h2 {
+        padding-left: 1rem;
+        font-size: .9rem;
+    }
+    .containerSkills h2 {
+        border-left: 2px solid var(--blue-dark) ;
+        padding:1rem;
+        font-size: .9rem;
+    }
+    .containerSkills p {
+        font-size: .85rem;
+    }
+    .imgSkills h4 {
+        font-size: .7rem;
+    }
+    .boxSkills img {
+        width: 1.2rem;
+    }
+    .boxSkills h3 {
+        font-size: .7rem;
+    }
+    .boxSkills {
+        padding: .5rem 0;
+        width: 25%;
+    }
+    .contMockup img {
+        width: 6rem;
+        height: 10rem;
+    }
+    .contMockup {
+        width:30%;
+    }
+    .infoProjects h2 , p {
+        font-size: .8rem;
+    }
+    .infoProjects {
+        width: 12rem;
+    }
+    .menuHamburguer {
+        display: block;
+    }
+    .menuList {
+        background-color: white;
+        z-index:1;
+        height: 100%;
+        position: absolute;
+        top: 6rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        text-transform: uppercase;
+        color: var(--blue-dark);
+        transition: 1s ease-in-out;
+        }
+        .positionFixed {
+            position: fixed;
+        }    
+}
+/*320px ft 480px*/
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .navBar {
+        z-index: 2;
+    }
+    .LinksNavBar {
+        display: none;
+    }
+    .nameMe h2 {
+        display: none;
+    }
+    .contentAboutMyself h2 {
+        color: var( --green-Light);
+        font-size: .7rem;
+    }
+    .contentAboutMyself h1 {
+        font-size: .9rem;
+    }
+    .contentAboutMyself p {  
+        font-size: .8rem;
+        padding: 1rem 0 2rem 0;
+    }
+    .contentAboutMyself {
+        padding: 1rem;
+        width: 74%;
+    }
+    .contPhoto img {
+        width: 8rem;
+    }
+    .contPhoto {
+        width: 4.4rem;
+        position: relative;
+        top: -1rem;
+        left: 2rem;
+    }
+    .images {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .images h3 {
+        font-size: .8rem;
+    }
+    .images img{
+        width: 1rem;
+        height: 1rem;
+    }
+    .quote h2 {
+        padding-left: 1rem;
+        font-size: .77rem;
+    }
+    .containerSkills h2 {
+        border-left: 2px solid var(--blue-dark) ;
+        padding:1rem;
+        font-size: .9rem;
+    }
+    .containerSkills p {
+        font-size: .85rem;
+    }
+    .imgSkills h4 {
+        font-size: .7rem;
+    }
+    .boxSkills img {
+        width: 1.2rem;
+    }
+    .boxSkills h3 {
+        font-size: .6rem;
+    }
+    .boxSkills {
+        padding: .5rem 0;
+        width: 23%;
+    }
+    .contMockup img {
+        width: 4rem;
+        height: 7rem;
+    }
+    .contMockup {
+        width:20%;
+    }
+    .infoProjects h2 , p {
+        font-size: .7rem;
+    }
+    .infoProjects {
+        width: 12rem;
+    }
+    .menuHamburguer {
+        display: block;
+    }
+    .menuList {
+        background-color: white;
+        z-index:1;
+        height: 100%;
+        position: absolute;
+        top: 6rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        text-transform: uppercase;
+        color: var(--blue-dark);
+        transition: 1s ease-in-out;
+        }
+        .positionFixed {
+            position: fixed;
+        }
+        
+
+}
