@@ -1,117 +1,73 @@
-/*1280px ft 800px*/
-@media screen and (min-width: 1280px){
-  
-}
+
 /*1080px ft 2400px*/
 @media screen and (min-width: 1080px) and (max-width:2400px) {
     .navBar {
-        padding: 2rem 0;
         z-index: 2;
+        width: 100%;
+        max-width: 100%;
     }
     .LinksNavBar {
-        display: none;
+        display: inline-flex;
     }
     .nameMe h2 {
-        display: none;
+        display: inline-flex;
+        font-size: .9rem;
     }
     .contentAboutMyself h2 {
         color: var( --green-Light);
-        font-size: .8rem;
+        font-size: 1.3rem;
     }
     .contentAboutMyself h1 {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .contentAboutMyself p {  
-        font-size: .8rem;
+        font-size: 1.3rem;
         padding: 1rem 0 2rem 0;
     }
     .contentAboutMyself {
         padding: 1rem;
-        width: 75%;
+        width: 50%;
+        width: 90%;
     }
-    .contPhoto img {
-        width: 10rem;
-    }
-    .contPhoto {
-        width: 4.4rem;
-        position: relative;
-        top: -1rem;
-        left: 2rem;
-    }
-    .images {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }
+
     .images h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .images img{
-        width: 1rem;
-        height: 1rem;
+        width: 2rem;
+        height: 2rem;
     }
     .quote h2 {
         padding-left: 1rem;
-        font-size: .9rem;
+        font-size: 1.15rem;
     }
     .containerSkills h2 {
         border-left: 2px solid var(--blue-dark) ;
         padding:1rem;
-        font-size: .9rem;
+        font-size: 1.5rem;
     }
     .containerSkills p {
-        font-size: .85rem;
+        font-size: 1.2rem;
     }
     .imgSkills h4 {
-        font-size: .7rem;
-    }
-    .boxSkills img {
-        width: 1.2rem;
-    }
-    .boxSkills h3 {
-        font-size: .7rem;
+        font-size: 1rem;
     }
     .boxSkills {
         padding: .5rem 0;
         width: 25%;
     }
     .contMockup img {
-        width: 6rem;
-        height: 10rem;
+        width: 18rem;
+        height: 12rem;
     }
     .contMockup {
-        width:30%;
+        width:22.5%;
     }
-    .infoProjects h2 , p {
-        font-size: .8rem;
-    }
-    .infoProjects {
-        width: 12rem;
-    }
+    
     .menuHamburguer {
-        display: block;
-        width: 5rem;
-        
+        display:none;
     }
-    .menuList {
-        background-color: white;
-        z-index:1;
-        height: 100%;
-        position: absolute;
-        top: 6rem;
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-        text-transform: uppercase;
-        color: var(--blue-dark);
-        transition: 1s ease-in-out;
-        }
-        .positionFixed {
-            position: fixed;
-        }    
+       
 }
 /*414px ft 986px*/
 @media screen and (min-width: 414px) and (max-width:986px) {
