@@ -29,7 +29,7 @@ const NavBar = ({logoJoel,menuHamburguer }) => {
                     </ul>
                 </div>
                 <div>
-                    <img onClick={handleOn} className='menuHamburguer' width={50} src={menuHamburguer} alt="" />
+                    <img onClick={handleOn} className='menuHamburguer blink-2' width={50} src={menuHamburguer} alt="" />
                 </div>
             </div>
         </nav>
