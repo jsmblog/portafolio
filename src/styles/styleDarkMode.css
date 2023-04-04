@@ -1,0 +1,156 @@
+.btnDarkMode {
+    position: absolute;
+    right: .5rem;
+    bottom: .5rem;
+    z-index: 5;
+}
+.positionFixedDarkMode {
+    position: fixed;
+}
+:root {
+    --green-dark-mode:#040529;
+    --botticelli:#d6e8ee;
+    --morning-glory:#59c6d4;
+    --blue-secundary-dm :#19386d;
+    --blue-trhird-dm:#2a61b2;
+    --sky:#95c8d8;
+}
+#btnDmActived .navBar  {
+background-color: var(--green-primary);
+transition: 2.5s ease;
+}
+#btnDmActived .aboutMyself {
+    background-color: var(--green-dark-mode);
+    color:var(--botticelli) ;
+    transition: 2.5s ease;
+}
+#btnDmActived .contentAboutMyself h2 {
+color: var(--morning-glory);
+transition: 2.5s ease;
+}
+#btnDmActived .images {
+    background-color: var(--blue-secundary-dm);
+    transition: 2.5s ease;
+    color: var(--botticelli);
+}
+#btnDmActived .quote {
+    color: var(--botticelli);
+    background-color: var(--blue-trhird-dm);
+    transition: 2.5s ease;
+}
+#btnDmActived .containerSkills {
+background-color:var(--botticelli) ;
+color: var(--blue-trhird-dm);
+transition: 2.5s ease;
+}
+#btnDmActived  .imgSkills  {
+    color: var(--blue-secundary-dm);
+    transition: 2.5s ease;
+}
+#btnDmActived  .contImgSkills {
+    transition: 2.5s ease;
+    background-color: var(--botticelli);
+}
+#btnDmActived .boxSkills {
+background-color:var(--green-dark-mode);
+color: var(--botticelli);
+transition: 2.5s ease;
+}
+#btnDmActived .portfolio {
+    color: var(--botticelli);
+    background-color: var(--green-dark-mode);
+    transition: 2.5s ease;
+}
+#btnDmActived .contPortfolio {
+    background-color: var(--blue-secundary-dm);
+    transition: 2.5s ease;
+}
+#btnDmActived .infoProjects {
+    border-left: 5px solid var(--morning-glory);
+    transition: 2.5s ease;
+}
+#btnDmActived .infoProjects h2 {
+    color: var(--morning-glory);
+transition: 2.5s ease;
+}
+#btnDmActived .infoProjects p {
+    color: var(--botticelli);
+transition: 2.5s ease;
+}
+#btnDmActived .contContactMe  {
+    background: rgb(55,109,128);
+    background: radial-gradient(circle, var(--blue-trhird-dm) 1%, var(--green-primary) 100%);
+    transition: 2.5s ease; 
+}
+#btnDmActived .lastSms {
+    color: var(--botticelli);
+    background: rgb(55,109,128);
+    background: radial-gradient(circle, var(--blue-trhird-dm) 1%, var(--green-primary) 100%);
+    transition: 2.5s ease; 
+}
+#btnDmActived .boxContactMe h3 {
+color: var(--botticelli);
+transition: 2.5s ease; 
+}
+#btnDmActived .contIconLinks div {
+    background-color: var(--blue-trhird-dm);
+    transition: 2.5s ease; 
+}
+/*animations*/
+.vibrate-1 {
+	-webkit-animation: vibrate-1 2s infinite ;
+	        animation: vibrate-1 2s infinite ;
+}
+@-webkit-keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  @keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  

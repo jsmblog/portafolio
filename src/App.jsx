@@ -33,19 +33,28 @@ import llamada from './assets/photos/llamada.png'
 import ContactMe from './components/ContactMe'
 import logoContactMe from './assets/photos/contactMe.png'
 import menuHamburguer from './assets/photos/hamburguesa.png'
-
+import darkMode from './assets/photos/darkMode.png'
+import DarkMode from './components/DarkMode'
+import { useState } from 'react'
 
 
 function App() {
 
+  const [isOnDm, setIsOnDm] = useState(false)
+const handleClickdarkMode = () => {
+setIsOnDm(!isOnDm)
+console.log(isOnDm)
+}
+const darkModeActived = (isOnDm) ? "btnDmActived": ""
 
   return (
-    <div className="App">
+    <div id={`${darkModeActived}`} className="App">
       <NavBar logoJoel={logoJoel} menuHamburguer={menuHamburguer} />
       <AboutMe photoProfile={photoProfile} location={location} email={email} />
       <Skills frontEnd={frontEnd} backend={backend} mobile={mobile} html={html} css={css} logoReact={logoReact} bootstrap={bootstrap} Js={Js} github={github} nodeJs={nodeJs} slack={slack} notion={notion} />
       <Portfolio logoPortfolio={logoPortfolio} mockupOne={mockupOne} linkToSite={linkToSite} mockupTwo={mockupTwo} mockupThird={mockupThird} mockupFourth={mockupFourth} mockupFiveth={mockupFiveth} mockupSixth={mockupSixth} />
       <ContactMe logoContactMe={logoContactMe} whatsapp={whatsapp} llamada={llamada} email={email} linkedin={linkedin} />
+      <DarkMode handleClickdarkMode={handleClickdarkMode} darkMode={darkMode} />
     </div>
   )
 }
