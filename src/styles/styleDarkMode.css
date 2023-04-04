@@ -62,7 +62,7 @@ transition: 2.5s ease;
     transition: 2.5s ease;
 }
 #btnDmActived .contPortfolio {
-    background-color: var(--blue-secundary-dm);
+    background-color: var(--green-dark-mode);
     transition: 2.5s ease;
 }
 #btnDmActived .infoProjects {
