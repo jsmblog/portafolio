@@ -1,6 +1,7 @@
 .btnDarkMode {
+    cursor: pointer;
     position: absolute;
-    right: .5rem;
+    right: 1rem;
     bottom: .5rem;
     z-index: 5;
 }

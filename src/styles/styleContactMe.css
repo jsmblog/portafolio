@@ -37,7 +37,8 @@
     transition: 1s ease-in-out;
 }
 .lastSms {
-    color: var(--blue-primary);
+    color: var(--blue-dark);
+    font-weight: bold;
 }
 .lastSms span {
     color: red;

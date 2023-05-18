@@ -26,6 +26,8 @@ import mockupThird from './assets/photos/mockupThird.png'
 import mockupFourth from './assets/photos/mockupFourth.png'
 import mockupFiveth from './assets/photos/mockupFiveth.png'
 import mockupSixth from './assets/photos/mockupSixth.png'
+import mockupSeven from './assets/photos/mockupSeven.png'
+import mockupEight from './assets/photos/mockupEight.png'
 import linkedin from './assets/photos/linkedin.png'
 import linkToSite from './assets/photos/enlace-roto.png'
 import whatsapp from './assets/photos/whatsapp.png'
@@ -52,7 +54,7 @@ const darkModeActived = (isOnDm) ? "btnDmActived": ""
       <NavBar logoJoel={logoJoel} menuHamburguer={menuHamburguer} />
       <AboutMe photoProfile={photoProfile} location={location} email={email} />
       <Skills frontEnd={frontEnd} backend={backend} mobile={mobile} html={html} css={css} logoReact={logoReact} bootstrap={bootstrap} Js={Js} github={github} nodeJs={nodeJs} slack={slack} notion={notion} />
-      <Portfolio logoPortfolio={logoPortfolio} mockupOne={mockupOne} linkToSite={linkToSite} mockupTwo={mockupTwo} mockupThird={mockupThird} mockupFourth={mockupFourth} mockupFiveth={mockupFiveth} mockupSixth={mockupSixth} />
+      <Portfolio mockupEight={mockupEight} mockupSeven={mockupSeven} logoPortfolio={logoPortfolio} mockupOne={mockupOne} linkToSite={linkToSite} mockupTwo={mockupTwo} mockupThird={mockupThird} mockupFourth={mockupFourth} mockupFiveth={mockupFiveth} mockupSixth={mockupSixth} />
       <ContactMe logoContactMe={logoContactMe} whatsapp={whatsapp} llamada={llamada} email={email} linkedin={linkedin} />
       <DarkMode handleClickdarkMode={handleClickdarkMode} darkMode={darkMode} />
     </div>

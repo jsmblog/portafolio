@@ -16,7 +16,7 @@
     color: var(--green-cyan);
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 1rem .5rem ;
 }
 .contImgSkills {
     gap: .8rem;
