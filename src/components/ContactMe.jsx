@@ -14,7 +14,7 @@ const ContactMe = ({logoContactMe,whatsapp,llamada ,email,linkedin}) => {
                         </a>
                     </div>
                     <div>
-                        <a href="tel:+59396291562"><img  width={30} src={llamada} alt="" />
+                        <a href="tel:+593962915626"><img  width={30} src={llamada} alt="" />
                         </a>
                     </div>
                     <div>
