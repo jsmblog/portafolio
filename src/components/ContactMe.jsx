@@ -10,19 +10,19 @@ const ContactMe = ({logoContactMe,whatsapp,llamada ,email,linkedin}) => {
             </div>
             <div className='contIconLinks'>
                     <div>
-                        <a href="#"><img  width={30} src={whatsapp} alt="" />
+                        <a href="https://api.whatsapp.com/send?phone=593962915626" target='_blank'><img  width={30} src={whatsapp} alt="" />
                         </a>
                     </div>
                     <div>
-                        <a href="#"><img  width={30} src={llamada} alt="" />
+                        <a href="tel:+59396291562"><img  width={30} src={llamada} alt="" />
                         </a>
                     </div>
                     <div>
-                        <a href="#"> <img  width={30} src={email} alt="" />
+                        <a href="mailto:jsmblog19@gmail.com Subject=Contact%20me%20already" > <img  width={30} src={email} alt="" />
                         </a>
                     </div>
                     <div>
-                        <a href="#"><img  width={30} src={linkedin} alt="" />
+                        <a href="https://www.linkedin.com/in/joel-mera-32760923a" target='_blank'><img  width={30} src={linkedin} alt="" />
                         </a>
                     </div>
                 </div>
